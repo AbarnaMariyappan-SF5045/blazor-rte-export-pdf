@@ -1,12 +1,52 @@
-# Blazor-RTE-Export-PDF
-A quick-start project that helps you how to Export PDF Files in Blazor Rich Text Editor Component. 
+# Blazor Rich Text Editor — Export to PDF
 
-# Project prerequisites
-Make sure that you have the latest versions of 'Visual Studio 2022' in your machine before starting to work on this project.
+A Blazor sample repository demonstrating how to export content from the Syncfusion Rich Text Editor to PDF.
 
-# How to run this application?
-• To run this application, you need to first clone the <code>Blazor-RTE-Export-PDF</code> repository and then open it in Visual Studio 2022.
+## Project overview
 
-• Register the syncfusion license key in the Program.cs file, if you have any doubts check the documentation link: https://blazor.syncfusion.com/documentation/getting-started/license-key/how-to-register-in-an-application
+This quick-start project demonstrates exporting editor content to PDF from a Blazor application that uses the Syncfusion Rich Text Editor component. The sample focuses on the integration and the runtime steps required to build and run the sample in a Visual Studio environment.
 
-• Now, simply build and run your project to view the output.
+## Features
+
+- Export editor content to PDF using the Rich Text Editor component.
+- Simple, focused sample suitable for learning the export workflow.
+
+## Prerequisites
+
+- Visual Studio 2022 (or later) installed on your machine.
+- A valid Syncfusion Blazor license key for licensed deployments.
+
+## Setup & Running Steps
+
+Installation
+
+```bash
+git clone https://github.com/Bhuvaneshwari-SF4208/blazor-rte-export-pdf
+cd blazor-rte-export-pdf
+```
+
+Restore NuGet packages
+
+```bash
+dotnet restore
+```
+
+Run the application
+
+```bash
+dotnet run
+```
+
+## Troubleshooting
+
+- Ensure NuGet packages are restored and the project builds before running.
+- If export fails, check browser console and server logs for errors and confirm any required licenses are configured.
+
+## Support
+
+This sample is provided for demonstration purposes. For issues, open an issue in the repository.
+
+## See also
+
+- [Online examples](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=fluent2)
+- [Documentation](https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started-webapp)
